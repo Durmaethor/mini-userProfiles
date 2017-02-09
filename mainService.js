@@ -22,4 +22,8 @@ var data =
             "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"
         }
     ]
+
+    function getUsers(){
+        
+    }
 })
