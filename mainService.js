@@ -21,11 +21,14 @@ angular.module('userProfiles').service('mainService', function(){
             "last_name": "bluth",
             "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"
         }
-    ]
+    ];
 
-
-      this.getUsers = function(){
+    this.getUsers = function(){
             return data;
         }
+
+    this.toggleFavorite = function(userIndex){
+      data[userIndex].isFavorite = !data[userIndex].isFavorite;
+    }
 
 })
