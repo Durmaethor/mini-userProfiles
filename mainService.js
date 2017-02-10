@@ -1,6 +1,11 @@
 angular.module('userProfiles').service('mainService', function(){
 
-var data =
+
+    function getUsers(){
+        
+    }
+    
+    var data =
 
     [
         {
@@ -23,7 +28,4 @@ var data =
         }
     ]
 
-    function getUsers(){
-        
-    }
 })
